@@ -1,0 +1,53 @@
+*.{
+    margin: 0;
+}
+
+.Image{
+    
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    padding: 1em;
+    background-color: red;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    background-size: 50px;
+    box-sizing: 50px;
+    
+}
+
+.About{
+padding: 15px 20px;
+display: flex;
+justify-content: space-between;
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 100;
+box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+
+}
+
+#button{
+    /* text-align: center;
+    display: flex;
+    flex-wrap: nowrap; */
+    
+    display: flex;
+    flex-wrap: nowrap;
+    row-gap: 5em;
+    padding: 1em 2em;
+}
+#Download{
+    background-color: rgb(154, 114, 209);
+}
+
+#hire{
+    background-color: rgb(90, 206, 130);
+}
+
+#name{
+    font-size: 100px;
+    
+}
